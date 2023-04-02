@@ -1,0 +1,32 @@
+_id: req_51a54c8fd8bc4a0e91a492939777618b
+type: Request
+parentId: fld_3a6c49ee5e9849cea61b5cc51dc2cc19
+modified: 1676802148129
+created: 1664457321064
+url: https://api.online-energieausweis.org/ausweis
+name: Ausweis erstellen
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"typ": "Einzelwohngebäude",
+    	"anlass": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bf2f5f47819246f4b72a6119c2ca0456
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1664457321064
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

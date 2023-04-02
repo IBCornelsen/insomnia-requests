@@ -1,0 +1,13 @@
+_id: fld_51ea033982bd4bfc9bed5c3e3ca92922
+type: RequestGroup
+parentId: wrk_a53c68fa45a148e8a18f6eaad77d7ce1
+modified: 1659127272622
+created: 1659114115555
+name: IBCornelsen
+description: ""
+environment:
+  token: 80dab6ad6bc56f9290e79d1d60a270fce04de74aa63ea293e19d460221621fe2
+environmentPropertyOrder:
+  "&":
+    - token
+metaSortKey: -1659114115555

@@ -1,0 +1,23 @@
+_id: req_926997048b9947fe9058c2f6e400dc5b
+type: Request
+parentId: fld_3a6c49ee5e9849cea61b5cc51dc2cc19
+modified: 1680464424109
+created: 1663868350120
+url: "{{ _.ENDPOINT }}/v1/ausweis?id={{ _.AUSWEIS_ID }}"
+name: Ausweis Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.TOKEN }}"
+metaSortKey: -1663868350120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

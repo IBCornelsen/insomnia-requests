@@ -1,0 +1,21 @@
+_id: req_11f1f53a539a4995b3bbd5e366bbc233
+type: Request
+parentId: fld_5bb5e08c2c224c19b6a6883a754bb0e1
+modified: 1663775512259
+created: 1659115711416
+url: https://api.online-energieausweis.org/token/{{ _.token }}/info/
+name: Get Token Settings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1659125595772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

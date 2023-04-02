@@ -1,0 +1,40 @@
+_id: req_2f4bd747a43449f087309643fdafbd9f
+type: Request
+parentId: fld_5bb5e08c2c224c19b6a6883a754bb0e1
+modified: 1663775402336
+created: 1659113952488
+url: https://api.online-energieausweis.org/token/generate/
+name: Generate Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"profile": {
+    		"username": true,
+    		"email": true,
+    		"password": true,
+    		"address": true,
+    		"card": true
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_65f8e40b3f6c4d099d6caa054880225e
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: Letsmoe
+  password: Geiloboy1
+metaSortKey: -1659125595722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_4500230a78b74fb3905aad83cb9cee94
+type: Request
+parentId: fld_5bb5e08c2c224c19b6a6883a754bb0e1
+modified: 1663774409990
+created: 1659114132027
+url: https://api.online-energieausweis.org/token/{{ _.token }}/validate/
+name: Validate Token
+description: >-
+  Diese Route wurde implementiert, um die Gültigkeit eines API Tokens zu
+  überprüfen.
+
+  Falls ein Token beispielswiese nicht existiert oder abgelaufen ist, kann hiermit geprüft werden, ob dem Token vertraut werden kann, und welche Zugriffsrechte dieser besitzt.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1659125595822
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

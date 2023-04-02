@@ -1,0 +1,20 @@
+_id: env_ed1fb638457f4cdbbeda1fb3ba7ba19a
+type: Environment
+parentId: env_ff512fdaa5b846956c0ad71b0c4be423347e57bc
+modified: 1680464415297
+created: 1659114076627
+name: IBCornelsen
+data:
+  AUSWEIS_ID: a-7f54-0210c-5e8
+  EMAIL: user@ib-cornelsen.de
+  TOKEN: PJF2zEqFgunBbjQMZMRnXFU2envHgwxb
+  ENDPOINT: http://ibcornelsen.de/api
+dataPropertyOrder:
+  "&":
+    - AUSWEIS_ID
+    - EMAIL
+    - TOKEN
+    - ENDPOINT
+color: null
+isPrivate: false
+metaSortKey: 1659114076627

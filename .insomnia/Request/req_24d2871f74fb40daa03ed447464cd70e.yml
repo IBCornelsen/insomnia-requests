@@ -1,0 +1,26 @@
+_id: req_24d2871f74fb40daa03ed447464cd70e
+type: Request
+parentId: fld_5bb5e08c2c224c19b6a6883a754bb0e1
+modified: 1663775410612
+created: 1663775293737
+url: https://api.online-energieausweis.org/token/3274424097b49c75fed3fb711717d7a881a1ba02661d0b30ce8239b612add28e/revoke/
+name: Revoke Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: Letsmoe
+  password: Geiloboy1
+metaSortKey: -1663775293737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
